@@ -17,9 +17,10 @@ public class Main {
             // Analyse de la saisie de l'utilisateur
             String[] numbers = input.split(",");
             for (String number : numbers) {
-                liste.add(Integer.parseInt(number.trim()));
+                liste.add(Integer.parseInt(number.trim()));//Convertit chaque élément en entier en supprimant les espaces et l'ajoute à la liste .
             }
 
+            //Trie la liste liste dans l'ordre croissant
             Collections.sort(liste);
 
             System.out.println("Liste triée : " + liste);
