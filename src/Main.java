@@ -11,7 +11,7 @@ public class Main {
         List<Integer> liste = new ArrayList<>();
 
         try {
-            System.out.println("Entrez les nombres à trier, puis appuyez sur Entrée pour terminer :");
+            System.out.println("Entrez des nombres séparer par des virgules, puis appuyez sur Entrée pour terminer :");
             String input = scanner.nextLine();
 
             // Analyse de la saisie de l'utilisateur
