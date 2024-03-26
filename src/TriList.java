@@ -3,15 +3,10 @@ import java.util.List;
 public class TriList {
 
     /**
-     Trie une liste d'entiers dans l'ordre croissant.
+     * Trie une liste d'entiers dans l'ordre croissant.
      */
     public static List<Integer> triCroissant(List<Integer> liste) {
 
-        for (Integer element : liste) {
-            if (!(element instanceof Integer)) {
-                throw new IllegalArgumentException("La liste doit contenir uniquement des entiers.");
-            }
-        }
 
         //  L'algorithme de tri par sélection pour le tri croissant
         for (int i = 0; i < liste.size(); i++) {
